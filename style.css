@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  min-height: 100vh;
+}
+
+img {
+  margin-right: 4.3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 7.2rem 4rem 0 4rem;
+}
+
+#home {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.1667rem;
+}
+
+a {
+  margin-right: 5.4rem;
+  text-decoration: none;
+  color: #c4c4cc;
+  font-size: 2.1667rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1667rem;
+}
+
+#app {
+  display: grid;
+  min-height: 100vh;
+}
+
+.home__page {
+  background: url(./assets/mountains-universe-1\ 1.png) no-repeat;
+  background-size: cover;
+}
+
+.home__page div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 17.2rem;
+}
+
+h1 {
+  color: #e1e1e6;
+  font-size: 4.8rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+button {
+  margin-top: 2.4rem;
+  padding: 1.2rem 3.2rem;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  cursor: pointer;
+
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+}
+
+.universe {
+  background: url(./assets/mountains-universe-2.png) no-repeat;
+  background-size: cover;
+}
+
+.universe h1, .explore h1 {
+  margin-bottom: 1.6rem;
+}
+
+.universe div, .explore div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.3rem;
+  margin-left: 10.2rem;
+  max-width: 64.8rem;
+}
+
+.explore {
+  background: url(./assets/mountains-universe-3.png) no-repeat;
+  background-size: cover;
+}
+
+p {
+  color: #e1e1e6;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
